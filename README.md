@@ -26,7 +26,7 @@
     		/* USER CODE BEGIN 3 */
     	}
      /* USER CODE END 3 */
-### **For using printf with float is needed add -u _printf_float in MCU GCC linker**
+
 
 # SPI Settings:
 | Options|   Value|
@@ -38,4 +38,5 @@
 | Clock Polarity (CPOL) | Low|
 | Clock Phase (CPHA) | 1 Edge|
 
-### **For the "Receive only the Master" mode, see this case:**
+### **If using SPI in "Receive only the Master" mode, see this case:** https://github.com/SimpleMethod/STM32-MAX31855/issues/1
+### **For using printf with float is needed add -u _printf_float in MCU GCC linker**
